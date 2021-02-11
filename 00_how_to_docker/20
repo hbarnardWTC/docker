@@ -1,0 +1,5 @@
+n/a (But got it working on localhost. Kinda)
+
+docker swarm init --advertise-addr 127.0.0.1
+
+/docker swarm leave -f/

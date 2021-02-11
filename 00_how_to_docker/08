@@ -1,0 +1,6 @@
+docker pull alpine;
+docker run -it --rm alpine /bin/sh
+
+
+\--rm to automatically remove\
+\-i keep STDIN open\

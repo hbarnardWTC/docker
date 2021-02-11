@@ -1,0 +1,21 @@
+ /Setup{testing do: docker pull debian
+       	docker run -i -t debian}/
+
+/once in container/
+
+apt-get update && apt-get upgrade -y
+apt-get install git build-essential -y
+apt-get install clang -y
+apt-get install gcc
+
+/"exit" to leave containter/
+/-y automatic yes/
+
+/
+#include<stdio.h>
+int main()
+{
+printf("Hello Docker");
+return 0;
+}
+/

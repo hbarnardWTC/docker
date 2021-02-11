@@ -1,0 +1,5 @@
+docker service scale marines=20
+
+
+/DON'T RUN THIS FOR ALL THAT IS GOOD/
+/But if you do stop it and run /docker service ps marines//

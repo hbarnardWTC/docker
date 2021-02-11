@@ -1,0 +1,3 @@
+docker service create --env OC_USERNAME=terran --env OC_PASSWD=raynor --network overmind --replicas 2 --name engineering-bay 42school/engineering-bay
+
+/Am I training or equipping terran soldiers???/
