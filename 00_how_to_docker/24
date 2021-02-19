@@ -1,4 +1,4 @@
-docker service create -d --name orbital-command --env RABBITMQ_DEFAULT_USER=terran --env RABBITMQ_DEFAULT_PASS=raynor --network overmind rabbitmqs
+docker service create -d --name orbital-command --env RABBITMQ_DEFAULT_USER=terran --env RABBITMQ_DEFAULT_PASS=raynor --network overmind rabbitmq
 
 
 /Wtf is erlang programming language/
